@@ -1,0 +1,16 @@
+<?php
+
+    $server = "localhost";
+    $username = "root";
+    $password = "";
+    $database = "cafe";
+
+    $conn = mysqli_connect($server, $username, $password, $database);
+
+    if ($conn) {
+        // echo "Connection successful";
+    } else {
+        die("Connection failed: ");
+    }
+
+?>
